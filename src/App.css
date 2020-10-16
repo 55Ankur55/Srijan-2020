@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+.text{
+   font-family: "Lucida Console", Courier, monospace;
+   font-style: italic;
+   font-size: 30px;
+  color: red;
+  margin-left: 400px;
+}
+.nav-item{
+    border: 1px solid #87a5cc;
+    color: #87a5cc;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+     
+}
+.nav-item2{
+   border: 1px solid #87a5cc;
+    color: #87a5cc;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
